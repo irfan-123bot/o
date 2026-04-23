@@ -1,6 +1,9 @@
 // Initialize AOS animation
 AOS.init({
-    offset: 0
+    offset: 120,
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: false
 });
 
 // Select elements
